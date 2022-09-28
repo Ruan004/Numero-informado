@@ -9,9 +9,9 @@ public class ListaMontanha2 {
     
     public static void main(String[] args) {
         Scanner leia = new Scanner (System.in);
-        int numero;
+        Double numero;
         System.out.print("Digite um numero: ");
-        numero = leia.nextInt();
+        numero = leia.nextDouble();
         System.out.println("O numero informado foi: " + numero);
     }
     
